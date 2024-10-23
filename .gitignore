@@ -1,0 +1,15 @@
+
+# 忽略所有 .txt 文件
+*.*
+# 不忽略 .py 文件
+!*.py
+
+
+# 不忽略 .pyc 文件（如果你有编译后的 Python 文件）
+!*.pyc
+
+# 不忽略 .gitignore 文件本身
+!.gitignore
+
+# 不忽略 .git 目录
+!.git/
